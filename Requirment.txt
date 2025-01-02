@@ -1,0 +1,4 @@
+OpenCV
+CvZone
+Mediapipe
+Python 3.x
