@@ -1,55 +1,58 @@
-# Virtual-Keyboard-Using-Computer-Vision
+# Virtual Keyboard Using Computer Vision
 
-## Description:
-This project implements a virtual keyboard using a webcam, hand tracking, and OpenCV. Users can interact with the keyboard by moving their fingers over keys and "clicking" them using a simple hand gesture. The pressed keys are displayed on the screen.
+## 📊 Description
+This project implements a **Virtual Keyboard** using a webcam, hand tracking, and OpenCV. Users can interact with the keyboard by moving their fingers over keys and "clicking" them using simple hand gestures. The pressed keys are displayed on the screen in real-time.
 
-## Features:
-1.Hand tracking to identify finger movements.
-2.Interactive virtual keyboard interface.
-3.Real-time text input using hand gestures.
-4.Displays the typed text on the screen.
-5.Special keys: Space and Backspace functionality.
-6.Exit the program by pressing the Esc key.
+## 🌟 Features
+- 👁️ **Hand Tracking:** Detects and tracks finger movements.
+- 🛠️ **Interactive Interface:** Displays a virtual keyboard overlay.
+- ⏳ **Real-Time Input:** Type text using hand gestures.
+- 📄 **Live Text Display:** Shows the typed text on the screen.
+- ␣ **Special Keys:** Supports Space and Backspace functionality.
+- ❌ **Exit:** Close the program by pressing the `Esc` key.
 
-## Technologies Used:
-1.Python 3.x
-2.OpenCV
-3.CvZone
-4.Mediapipe
-5.Installation Requirements:
-6.Python 3.x installed on your system.
-7.Required Python libraries:
-8.opencv-python
-9.mediapipe
-10.cvzone
-11.pynput
+## 👨‍💻 Technologies Used
+- **Python 3.x**
+- **OpenCV**
+- **CvZone**
+- **Mediapipe**
+- **Pynput**
 
+## 🛠️ Setup and Installation
 
-## Setup and Installation:
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   cd Virtual-Keyboard-Using-Computer-Vision
+   ```
 
-Clone or download this repository.
+2. **Install Dependencies:**
+   ```bash
+   pip install opencv-python mediapipe cvzone pynput
+   ```
 
-Install the required libraries using pip:
-pip install opencv-python mediapipe cvzone pynput
-Save the Python script (e.g., keyboard.py) in the project folder.
+3. **Run the Project:**
+   ```bash
+   python keyboard.py
+   ```
 
-Usage Instructions:
-Run the Python script:
-python keyboard.py
+## 📝 Usage Instructions
+1. Launch the program to see the webcam feed with the virtual keyboard overlay.
+2. Move your **index finger** to hover over the keys.
+3. Bring your **index** and **middle finger** close together to "click" a key.
+4. Typed characters will appear on the output screen.
+5. Use **Space** and **Backspace** keys as needed.
+6. Press **Esc** to exit the application.
 
-The webcam feed will appear on the screen with a virtual keyboard overlay.
-Move your index finger to hover over the keys.
-Bring the index and middle finger close to "click" a key.
-Typed characters will appear on the output screen.
-Press Space or Backspace for their respective actions.
+## 📊 Future Enhancements
+- ➕ Add support for more keys and functionalities.
+- 🎤 Integrate **speech-to-text** features.
+- 📏 Support for different keyboard layouts (QWERTY, AZERTY, etc.).
 
-Exit the application by pressing the Esc key.
+## 👤 Author
+**Pratham Shirol**
 
+---
 
-## Future Enhancements:
-1.Add support for additional keys.
-2.Integrate with speech-to-text functionality.
-3.Support for different keyboard layouts.
+✨ Feel free to contribute and enhance the project!
 
-## Author:
-Pratham Shirol
